@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Maulana · Pixel Town Portfolio</title>
+  <meta name="description" content="Portfolio of Maulana Yasyfa'u Al Azhiim Yudho Leksono: AI-native software developer, Web3 developer and independent technology learner. Explore it as a pixel-art town.">
+  <meta name="theme-color" content="#ffd391">
+  <meta property="og:title" content="Maulana · Pixel Town Portfolio">
+  <meta property="og:description" content="Learn deeply. Build boldly. Create with purpose. A 2D pixel-art portfolio.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/og.png">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/jersey-15-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/press-start-2p-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+
+  <header class="topbar">
+    <div class="topbar-row">
+      <a class="brand" href="#gate" id="brand" aria-label="Maulana, home">
+        <canvas class="spr s2" data-sprite="star" aria-hidden="true"></canvas>
+        <span class="brand-text">MAULANA</span>
+      </a>
+      <div class="settings">
+        <div class="lang" role="group" aria-label="Language" data-i18n-attr="aria-label:lang.label">
+          <button type="button" data-lang="id" aria-pressed="false" lang="id" title="Bahasa Indonesia">ID</button>
+          <button type="button" data-lang="en" aria-pressed="false" lang="en" title="English">EN</button>
+          <button type="button" data-lang="zh" aria-pressed="false" lang="zh" title="中文">中文</button>
+        </div>
+        <button type="button" id="sound" class="sound" aria-pressed="false">
+          <span class="sound-ico" aria-hidden="true"></span>
+          <span class="sound-txt" id="sound-txt">SOUND OFF</span>
+        </button>
+      </div>
+    </div>
+    <nav class="map" aria-label="Town map" data-i18n-attr="aria-label:nav.label">
+      <a href="#gate" data-nav="gate"><canvas class="spr s1" data-sprite="star" aria-hidden="true"></canvas><span data-i18n="nav.gate">Start</span></a>
+      <a href="#house" data-nav="house"><canvas class="spr s1" data-sprite="cap" aria-hidden="true"></canvas><span data-i18n="nav.house">Profile</span></a>
+      <a href="#tower" data-nav="tower"><canvas class="spr s1" data-sprite="gem" aria-hidden="true"></canvas><span data-i18n="nav.tower">Skills</span></a>
+      <a href="#lab" data-nav="lab"><canvas class="spr s1" data-sprite="code" aria-hidden="true"></canvas><span data-i18n="nav.lab">Projects</span></a>
+      <a href="#hall" data-nav="hall"><canvas class="spr s1" data-sprite="trophy" aria-hidden="true"></canvas><span data-i18n="nav.hall">Awards</span></a>
+      <a href="#library" data-nav="library"><canvas class="spr s1" data-sprite="book" aria-hidden="true"></canvas><span data-i18n="nav.library">Journey</span></a>
+      <a href="#post" data-nav="post"><canvas class="spr s1" data-sprite="mail" aria-hidden="true"></canvas><span data-i18n="nav.post">Contact</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- 01 GATE / START SCREEN -->
+    <section id="gate" class="gate" aria-labelledby="gate-title">
+      <div class="gate-inner">
+        <p class="eyebrow" data-i18n="gate.eyebrow">WELCOME TO PIXEL TOWN</p>
+        <h1 id="gate-title" class="logo">
+          <span class="logo-main">MAULANA</span>
+          <small class="logo-sub" id="logo-sub"></small>
+        </h1>
+        <p class="classes" id="classes"></p>
+        <p class="motto" id="motto"></p>
+        <button type="button" class="btn btn-big blink-btn" id="start" data-i18n="gate.start">PRESS START</button>
+        <p class="hint" data-i18n="gate.hint">Click a building to visit it, or use the town map above.</p>
+      </div>
+      <div class="town-scroll" id="town-scroll" tabindex="-1">
+        <div class="town-wrap" id="town-wrap">
+          <canvas id="town" width="400" height="150" aria-hidden="true"></canvas>
+          <div class="town-links" id="town-links"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 02 HOUSE / CHARACTER PROFILE -->
+    <section id="house" class="room theme-orange" aria-labelledby="house-title">
+      <div class="room-head">
+        <canvas class="bld" data-building="house" width="64" height="80" aria-hidden="true"></canvas>
+        <div>
+          <p class="eyebrow" data-i18n="house.eyebrow">BUILDING 02</p>
+          <h2 id="house-title" class="h2" data-i18n="house.title">Character House</h2>
+          <p class="lead" data-i18n="house.lead"></p>
+        </div>
+      </div>
+      <div class="room-body" id="house-body"></div>
+    </section>
+
+    <!-- 03 TOWER / SKILL TREE -->
+    <section id="tower" class="room theme-teal" aria-labelledby="tower-title">
+      <div class="room-head">
+        <canvas class="bld" data-building="tower" width="64" height="80" aria-hidden="true"></canvas>
+        <div>
+          <p class="eyebrow" data-i18n="tower.eyebrow">BUILDING 03</p>
+          <h2 id="tower-title" class="h2" data-i18n="tower.title">Skill Tower</h2>
+          <p class="lead" data-i18n="tower.lead"></p>
+        </div>
+      </div>
+      <div class="room-body" id="tower-body"></div>
+    </section>
+
+    <!-- 04 LAB / PROJECT ROOMS -->
+    <section id="lab" class="room theme-green" aria-labelledby="lab-title">
+      <div class="room-head">
+        <canvas class="bld" data-building="lab" width="64" height="80" aria-hidden="true"></canvas>
+        <div>
+          <p class="eyebrow" data-i18n="lab.eyebrow">BUILDING 04</p>
+          <h2 id="lab-title" class="h2" data-i18n="lab.title">Project Laboratory</h2>
+          <p class="lead" data-i18n="lab.lead"></p>
+        </div>
+      </div>
+      <div class="room-body" id="lab-body"></div>
+    </section>
+
+    <!-- 05 HALL / ACHIEVEMENTS -->
+    <section id="hall" class="room theme-gold" aria-labelledby="hall-title">
+      <div class="room-head">
+        <canvas class="bld" data-building="hall" width="64" height="80" aria-hidden="true"></canvas>
+        <div>
+          <p class="eyebrow" data-i18n="hall.eyebrow">BUILDING 05</p>
+          <h2 id="hall-title" class="h2" data-i18n="hall.title">Hall of Fame</h2>
+          <p class="lead" data-i18n="hall.lead"></p>
+        </div>
+      </div>
+      <div class="room-body" id="hall-body"></div>
+    </section>
+
+    <!-- 06 LIBRARY / JOURNEY -->
+    <section id="library" class="room theme-purple" aria-labelledby="library-title">
+      <div class="room-head">
+        <canvas class="bld" data-building="library" width="64" height="80" aria-hidden="true"></canvas>
+        <div>
+          <p class="eyebrow" data-i18n="library.eyebrow">BUILDING 06</p>
+          <h2 id="library-title" class="h2" data-i18n="library.title">Learning Library</h2>
+          <p class="lead" data-i18n="library.lead"></p>
+        </div>
+      </div>
+      <div class="room-body" id="library-body"></div>
+    </section>
+
+    <!-- 07 POST / CONTACT TERMINAL -->
+    <section id="post" class="room theme-red" aria-labelledby="post-title">
+      <div class="room-head">
+        <canvas class="bld" data-building="post" width="64" height="80" aria-hidden="true"></canvas>
+        <div>
+          <p class="eyebrow" data-i18n="post.eyebrow">BUILDING 07</p>
+          <h2 id="post-title" class="h2" data-i18n="post.title">Contact Terminal</h2>
+          <p class="lead" data-i18n="post.lead"></p>
+        </div>
+      </div>
+      <div class="room-body" id="post-body"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer-motto" id="footer-motto"></p>
+    <p data-i18n="footer.text">Drawn with code, one pixel at a time.</p>
+    <p class="footer-note" data-i18n="footer.note"></p>
+  </footer>
+
+  <dialog id="dlg" class="rpg" aria-labelledby="dlg-title">
+    <div class="rpg-box" id="dlg-box">
+      <header class="rpg-head">
+        <canvas class="spr s3" id="dlg-ico" data-sprite="gem" aria-hidden="true"></canvas>
+        <div class="rpg-titles">
+          <h3 id="dlg-title"></h3>
+          <p id="dlg-sub" class="rpg-sub"></p>
+        </div>
+        <button type="button" class="x" id="dlg-x" aria-label="Close" data-i18n-attr="aria-label:dlg.close">✕</button>
+      </header>
+      <div id="dlg-body" class="rpg-body"></div>
+      <footer class="rpg-foot" id="dlg-foot"></footer>
+    </div>
+  </dialog>
+
+  <canvas id="fx" aria-hidden="true"></canvas>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <noscript><p class="noscript">This pixel town needs JavaScript. / Kota pixel ini membutuhkan JavaScript.</p></noscript>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

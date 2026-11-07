@@ -1,0 +1,126 @@
+{
+  "identity": {
+    "firstName": "Maulana",
+    "restOfName": "Yasyfa'u Al Azhiim Yudho Leksono",
+    "githubUsername": "ByteBreakerGhost-69",
+    "location": { "en": "Indonesia", "id": "Indonesia", "zh": "印度尼西亚" },
+    "classes": [
+      { "en": "AI-Native Software Developer", "id": "Pengembang Software AI-Native", "zh": "AI 原生软件开发者" },
+      { "en": "Web3 Developer", "id": "Pengembang Web3", "zh": "Web3 开发者" },
+      { "en": "Independent Technology Learner", "id": "Pembelajar Teknologi Mandiri", "zh": "独立技术学习者" }
+    ],
+    "shortBio": {
+      "en": "An independent software developer from Indonesia exploring artificial intelligence, software engineering, blockchain, cybersecurity, machine learning, and computational approaches to real-world problems.",
+      "id": "Pengembang perangkat lunak independen dari Indonesia yang mengeksplorasi kecerdasan buatan, rekayasa perangkat lunak, blockchain, keamanan siber, machine learning, dan pendekatan komputasional untuk masalah dunia nyata.",
+      "zh": "来自印度尼西亚的独立软件开发者，探索人工智能、软件工程、区块链、网络安全、机器学习，以及用计算方法解决现实问题。"
+    },
+    "longBio": {
+      "en": "I am an independent learner and software developer interested in building practical software and exploring emerging technologies. My work and experiments span AI-powered applications, multi-agent systems, full-stack development, blockchain and smart contracts, defensive security tooling, machine learning, and computational ideas related to economics. I value understanding how systems work, documenting what I build, and improving through continuous experimentation.",
+      "id": "Saya adalah pembelajar mandiri dan pengembang perangkat lunak yang tertarik membangun perangkat lunak praktis dan menjelajahi teknologi baru. Karya dan eksperimen saya mencakup aplikasi berbasis AI, sistem multi-agent, pengembangan full-stack, blockchain dan smart contract, alat keamanan defensif, machine learning, serta gagasan komputasional yang berkaitan dengan ekonomi. Saya menghargai upaya memahami cara kerja sebuah sistem, mendokumentasikan apa yang saya bangun, dan terus berkembang lewat eksperimen.",
+      "zh": "我是一名独立学习者和软件开发者，热衷于构建实用的软件并探索新兴技术。我的作品与实验涵盖 AI 应用、多智能体系统、全栈开发、区块链与智能合约、防御性安全工具、机器学习，以及与经济学相关的计算思路。我重视理解系统如何运作、记录自己构建的东西，并通过持续实验不断进步。"
+    },
+    "philosophy": {
+      "en": "Learn deeply. Build boldly. Create with purpose.",
+      "id": "Belajar mendalam. Membangun dengan berani. Berkarya dengan tujuan.",
+      "zh": "深入学习。大胆构建。有意义地创造。"
+    },
+    "interests": [
+      { "en": "Artificial intelligence", "id": "Kecerdasan buatan", "zh": "人工智能" },
+      { "en": "Software engineering", "id": "Rekayasa perangkat lunak", "zh": "软件工程" },
+      { "en": "Blockchain", "id": "Blockchain", "zh": "区块链" },
+      { "en": "Cybersecurity", "id": "Keamanan siber", "zh": "网络安全" },
+      { "en": "Machine learning", "id": "Machine learning", "zh": "机器学习" },
+      { "en": "Computational economics", "id": "Ekonomi komputasional", "zh": "计算经济学" }
+    ]
+  },
+  "education": [
+    {
+      "institution": "SMA Islam Plus Hidayatut Thullab",
+      "period": { "en": "July 2022 – May 2025", "id": "Juli 2022 – Mei 2025", "zh": "2022年7月 – 2025年5月" },
+      "stream": { "en": "Social Sciences", "id": "Ilmu Sosial (IPS)", "zh": "社会科学方向" }
+    }
+  ],
+  "achievements": [
+    {
+      "id": "osn",
+      "icon": "medal",
+      "name": { "en": "OSN-O Mathematics 2025", "id": "OSN-O Matematika 2025", "zh": "OSN-O 数学 2025" },
+      "result": { "en": "Silver Medal", "id": "Medali Perak", "zh": "银牌" }
+    },
+    {
+      "id": "ksi",
+      "icon": "star",
+      "name": { "en": "KSI-HP Economics 2025", "id": "KSI-HP Ekonomi 2025", "zh": "KSI-HP 经济学 2025" },
+      "result": { "en": "National-level participation", "id": "Peserta tingkat nasional", "zh": "全国赛参赛" }
+    },
+    {
+      "id": "soc-pypi",
+      "icon": "pkg",
+      "name": { "en": "SOC Agent Toolkit", "id": "SOC Agent Toolkit", "zh": "SOC Agent Toolkit" },
+      "result": { "en": "Python package published on PyPI", "id": "Paket Python dipublikasikan di PyPI", "zh": "已在 PyPI 发布的 Python 包" },
+      "note": {
+        "en": "A software distribution milestone. No download count or commercial adoption is implied.",
+        "id": "Tonggak distribusi perangkat lunak. Tidak menyiratkan jumlah unduhan atau adopsi komersial.",
+        "zh": "这是软件发布层面的里程碑，不暗示下载量或商业应用。"
+      },
+      "project": "soc-agent-toolkit"
+    }
+  ],
+  "journey": [
+    {
+      "when": { "en": "Jul 2022", "id": "Jul 2022", "zh": "2022年7月" },
+      "title": { "en": "Started high school", "id": "Memulai SMA", "zh": "进入高中" },
+      "text": {
+        "en": "Began at SMA Islam Plus Hidayatut Thullab in the Social Sciences stream.",
+        "id": "Mulai belajar di SMA Islam Plus Hidayatut Thullab, jurusan Ilmu Sosial.",
+        "zh": "进入 SMA Islam Plus Hidayatut Thullab，就读社会科学方向。"
+      },
+      "icon": "book"
+    },
+    {
+      "when": { "en": "2025", "id": "2025", "zh": "2025年" },
+      "title": { "en": "National-level competitions", "id": "Kompetisi tingkat nasional", "zh": "全国级竞赛" },
+      "text": {
+        "en": "Silver Medal in OSN-O Mathematics and national-level participation in KSI-HP Economics.",
+        "id": "Medali Perak di OSN-O Matematika dan peserta tingkat nasional di KSI-HP Ekonomi.",
+        "zh": "在 OSN-O 数学中获得银牌，并参加了 KSI-HP 经济学全国赛。"
+      },
+      "icon": "medal"
+    },
+    {
+      "when": { "en": "May 2025", "id": "Mei 2025", "zh": "2025年5月" },
+      "title": { "en": "High school period ended", "id": "Masa SMA berakhir", "zh": "高中阶段结束" },
+      "text": {
+        "en": "Continued as an independent learner and software developer.",
+        "id": "Berlanjut sebagai pembelajar mandiri dan pengembang perangkat lunak.",
+        "zh": "继续以独立学习者和软件开发者的身份前进。"
+      },
+      "icon": "cap"
+    },
+    {
+      "when": { "en": "Now", "id": "Sekarang", "zh": "现在" },
+      "title": { "en": "Building across several fields", "id": "Membangun di berbagai bidang", "zh": "跨领域构建" },
+      "text": {
+        "en": "AI agents, smart contracts, defensive security tooling, machine learning, and creative web projects, each documented in a public repository.",
+        "id": "Agen AI, smart contract, alat keamanan defensif, machine learning, dan proyek web kreatif, masing-masing didokumentasikan di repositori publik.",
+        "zh": "AI 智能体、智能合约、防御性安全工具、机器学习与创意网页项目，每一项都记录在公开仓库中。"
+      },
+      "icon": "rocket"
+    }
+  ],
+  "paths": [
+    { "id": "ai", "icon": "robot", "projects": ["ai-multi-agent", "ai-edu", "ai-cv-analyzer", "flowise-chatbot", "voxagent-ai"] },
+    { "id": "web3", "icon": "block", "projects": ["crowdfunding", "dao-governance", "voting-contract", "nuswap"] },
+    { "id": "security", "icon": "shield", "projects": ["soc-agent-toolkit"] },
+    { "id": "ml", "icon": "neuron", "projects": ["neuron"] },
+    { "id": "research", "icon": "code", "projects": ["econlang"] },
+    { "id": "creative", "icon": "rocket", "projects": ["spaceoffice", "portfolio-v1"] }
+  ],
+  "links": {
+    "github": "https://github.com/ByteBreakerGhost-69",
+    "linkedin": "https://www.linkedin.com/in/maulana-yasyfa-u-al-azhiim-yudho-leksono-95649a376/",
+    "instagram": "https://www.instagram.com/liang_zhe_ming/",
+    "x": "https://x.com/u53864",
+    "email": "yasyfinance.9@gmail.com"
+  }
+}

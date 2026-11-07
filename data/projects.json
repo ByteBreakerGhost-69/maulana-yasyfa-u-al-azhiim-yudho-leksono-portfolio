@@ -1,0 +1,382 @@
+[
+  {
+    "id": "soc-agent-toolkit",
+    "name": "SOC Agent Toolkit",
+    "url": "https://github.com/ByteBreakerGhost-69/soc-agent-toolkit",
+    "category": "security",
+    "statusType": "published",
+    "icon": "shield",
+    "featured": true,
+    "technologies": ["Python", "CLI", "JSON", "CEF", "Syslog", "MITRE ATT&CK", "IOC enrichment"],
+    "summary": {
+      "en": "A modular Python command-line toolkit for defensive security operations, designed to parse and normalize alerts, map events to MITRE ATT&CK techniques, enrich indicators, deduplicate related alerts, prioritize incidents, and generate analyst-oriented summaries.",
+      "id": "Toolkit baris perintah Python yang modular untuk operasi keamanan defensif: mem-parsing dan menormalkan alert, memetakan kejadian ke teknik MITRE ATT&CK, memperkaya indikator, menghapus duplikasi alert terkait, memprioritaskan insiden, dan membuat ringkasan untuk analis.",
+      "zh": "一个模块化的 Python 命令行工具包，用于防御性安全运营：解析并标准化告警，将事件映射到 MITRE ATT&CK 技术，丰富威胁指标，对相关告警去重，为事件排定优先级，并生成面向分析师的摘要。"
+    },
+    "status": {
+      "en": "Published Python package. See the repository for the current release and state.",
+      "id": "Paket Python yang sudah dipublikasikan. Lihat repositori untuk rilis dan kondisi terkini.",
+      "zh": "已发布的 Python 包。当前版本与状态请见仓库。"
+    },
+    "highlights": {
+      "en": ["Multi-format alert parsing", "MITRE ATT&CK mapping", "IOC enrichment", "Alert deduplication", "Incident prioritization", "AI-assisted or deterministic summaries"],
+      "id": ["Parsing alert multi-format", "Pemetaan MITRE ATT&CK", "Pengayaan IOC", "Deduplikasi alert", "Prioritas insiden", "Ringkasan berbantuan AI atau deterministik"],
+      "zh": ["多格式告警解析", "MITRE ATT&CK 映射", "IOC 情报丰富", "告警去重", "事件优先级排序", "AI 辅助或确定性摘要"]
+    },
+    "note": {
+      "en": "Defensive security positioning only. This does not claim professional SOC employment or incident-response experience.",
+      "id": "Posisinya hanya untuk keamanan defensif. Ini tidak mengklaim pengalaman kerja profesional di SOC atau penanganan insiden.",
+      "zh": "仅定位于防御性安全。并不声称有专业 SOC 工作经历或事件响应经验。"
+    }
+  },
+  {
+    "id": "ai-multi-agent",
+    "name": "AI Multi-Agent",
+    "url": "https://github.com/ByteBreakerGhost-69/AI-multi-Agent",
+    "category": "ai",
+    "statusType": "experimental",
+    "icon": "robot",
+    "featured": true,
+    "technologies": ["Python", "AI agents", "Orchestration", "SQLite"],
+    "summary": {
+      "en": "An experimental multi-agent application architecture with an orchestrator and specialist agents for sales, product building, project management, and support.",
+      "id": "Arsitektur aplikasi multi-agent eksperimental dengan orkestrator dan agen spesialis untuk penjualan, pembuatan produk, manajemen proyek, dan dukungan pelanggan.",
+      "zh": "一个实验性的多智能体应用架构，包含一个编排器，以及负责销售、产品构建、项目管理和客户支持的专业智能体。"
+    },
+    "status": {
+      "en": "Experimental project. Only components implemented in the public repository are described.",
+      "id": "Proyek eksperimental. Hanya komponen yang sudah terimplementasi di repositori publik yang dijelaskan.",
+      "zh": "实验性项目，仅描述公开仓库中已实现的组件。"
+    },
+    "highlights": {
+      "en": ["Task routing between agents", "Shared memory and database layer", "Specialist agent structure", "Centralized logging and shared tools"],
+      "id": ["Perutean tugas antar agen", "Memori bersama dan lapisan basis data", "Struktur agen spesialis", "Logging terpusat dan alat bersama"],
+      "zh": ["智能体之间的任务路由", "共享记忆与数据库层", "专业智能体结构", "集中式日志与共享工具"]
+    }
+  },
+  {
+    "id": "ai-edu",
+    "name": "AI Education Platform",
+    "url": "https://github.com/ByteBreakerGhost-69/AI_edu",
+    "category": "ai",
+    "statusType": "developing",
+    "icon": "cap",
+    "featured": true,
+    "technologies": ["Python", "FastAPI", "PostgreSQL", "Redis", "Qdrant", "LangGraph", "LLM integration"],
+    "summary": {
+      "en": "An educational technology platform concept using an orchestrator and specialist agents to support learning-content workflows.",
+      "id": "Konsep platform teknologi pendidikan yang memakai orkestrator dan agen spesialis untuk mendukung alur kerja pembuatan konten belajar.",
+      "zh": "一个教育科技平台构想，使用编排器和专业智能体来支持学习内容的制作流程。"
+    },
+    "status": {
+      "en": "In development / architecture exploration.",
+      "id": "Dalam pengembangan / eksplorasi arsitektur.",
+      "zh": "开发中 / 架构探索阶段。"
+    },
+    "highlights": {
+      "en": ["Educational agent orchestration", "Curriculum and memory agent concepts", "Fact-checking workflow", "Script and visual-asset workflow", "Subject-aware routing concepts"],
+      "id": ["Orkestrasi agen pendidikan", "Konsep agen kurikulum dan memori", "Alur pemeriksaan fakta", "Alur naskah dan aset visual", "Konsep perutean sesuai mata pelajaran"],
+      "zh": ["教育智能体编排", "课程与记忆智能体构想", "事实核查流程", "脚本与视觉素材流程", "按学科路由的构想"]
+    },
+    "note": {
+      "en": "Some listed components are architectural plans, not implemented features.",
+      "id": "Sebagian komponen yang tercantum masih berupa rencana arsitektur, bukan fitur yang sudah jadi.",
+      "zh": "所列部分组件仍是架构规划，并非已实现的功能。"
+    }
+  },
+  {
+    "id": "ai-cv-analyzer",
+    "name": "AI CV Analyzer",
+    "url": "https://github.com/ByteBreakerGhost-69/ai-cv-analyzer",
+    "category": "ai",
+    "statusType": "developing",
+    "icon": "doc",
+    "featured": false,
+    "technologies": ["Python", "FastAPI", "NLP", "LLM integration", "PDF parsing"],
+    "summary": {
+      "en": "A Python application concept for extracting information from CVs, analyzing skills, scoring resume content, and generating improvement suggestions with NLP and LLM support.",
+      "id": "Konsep aplikasi Python untuk mengekstrak informasi dari CV, menganalisis skill, menilai isi resume, dan membuat saran perbaikan dengan dukungan NLP dan LLM.",
+      "zh": "一个 Python 应用构想：从简历中提取信息、分析技能、为简历内容评分，并借助 NLP 与 LLM 生成改进建议。"
+    },
+    "status": {
+      "en": "Prototype / in development.",
+      "id": "Prototipe / dalam pengembangan.",
+      "zh": "原型 / 开发中。"
+    },
+    "highlights": {
+      "en": ["CV text extraction", "Skill and education extraction", "Resume analysis", "Personalized improvement suggestions"],
+      "id": ["Ekstraksi teks CV", "Ekstraksi skill dan pendidikan", "Analisis resume", "Saran perbaikan yang dipersonalisasi"],
+      "zh": ["简历文本提取", "技能与教育背景提取", "简历分析", "个性化改进建议"]
+    }
+  },
+  {
+    "id": "flowise-chatbot",
+    "name": "Flowise Chatbot",
+    "url": "https://github.com/ByteBreakerGhost-69/flowise-chatbot-ku",
+    "category": "ai",
+    "statusType": "experimental",
+    "icon": "chat",
+    "featured": false,
+    "technologies": ["Flowise", "LangChain concepts", "Groq", "LLM", "Conversation memory"],
+    "summary": {
+      "en": "A modular conversational chatbot flow using an LLM, conversation memory, prompt templates, and a conversation chain.",
+      "id": "Alur chatbot percakapan modular yang memakai LLM, memori percakapan, template prompt, dan conversation chain.",
+      "zh": "一个模块化的对话聊天机器人流程，使用 LLM、对话记忆、提示词模板和对话链。"
+    },
+    "status": {
+      "en": "Learning / experimental project.",
+      "id": "Proyek belajar / eksperimental.",
+      "zh": "学习 / 实验性项目。"
+    },
+    "highlights": {
+      "en": ["LLM chat model", "Buffer-window memory", "Prompt template", "Conversation chain"],
+      "id": ["Model chat LLM", "Memori buffer-window", "Template prompt", "Conversation chain"],
+      "zh": ["LLM 聊天模型", "缓冲窗口记忆", "提示词模板", "对话链"]
+    }
+  },
+  {
+    "id": "crowdfunding",
+    "name": "CrowdFunding Smart Contract",
+    "url": "https://github.com/ByteBreakerGhost-69/project-CrowdFunding",
+    "category": "web3",
+    "statusType": "documented",
+    "icon": "coin",
+    "featured": true,
+    "technologies": ["Solidity", "Foundry", "Ethereum", "Smart contract testing"],
+    "summary": {
+      "en": "A Solidity crowdfunding contract supporting campaign creation, contributions, funding goals, deadline-based settlement, and refunds when a campaign fails or is cancelled.",
+      "id": "Kontrak crowdfunding Solidity yang mendukung pembuatan kampanye, kontribusi, target dana, penyelesaian berbasis tenggat, dan pengembalian dana jika kampanye gagal atau dibatalkan.",
+      "zh": "一个 Solidity 众筹合约，支持创建活动、出资、筹款目标、基于截止时间的结算，以及活动失败或取消时的退款。"
+    },
+    "status": {
+      "en": "Architecture and tests are documented in the repository. Not presented as production-ready.",
+      "id": "Arsitektur dan pengujian didokumentasikan di repositori. Tidak diklaim siap produksi.",
+      "zh": "仓库中记录了架构与测试。不声称已可用于生产环境。"
+    },
+    "highlights": {
+      "en": ["Campaign creation", "ETH contributions", "Goal and deadline handling", "Refund mechanism", "Checks-Effects-Interactions pattern", "Reentrancy defenses"],
+      "id": ["Pembuatan kampanye", "Kontribusi ETH", "Penanganan target dan tenggat", "Mekanisme refund", "Pola Checks-Effects-Interactions", "Pertahanan terhadap reentrancy"],
+      "zh": ["创建活动", "ETH 出资", "目标与截止时间处理", "退款机制", "Checks-Effects-Interactions 模式", "重入攻击防御"]
+    }
+  },
+  {
+    "id": "dao-governance",
+    "name": "DAO Governance Smart Contract",
+    "url": "https://github.com/ByteBreakerGhost-69/DAO-project",
+    "category": "web3",
+    "statusType": "developing",
+    "icon": "gavel",
+    "featured": false,
+    "technologies": ["Solidity", "OpenZeppelin Governor", "DAO", "Timelock"],
+    "summary": {
+      "en": "A token-governance smart contract architecture based on OpenZeppelin Governor modules, voting, quorum, proposal management, and timelock execution.",
+      "id": "Arsitektur smart contract tata kelola berbasis token yang memakai modul OpenZeppelin Governor, voting, kuorum, manajemen proposal, dan eksekusi timelock.",
+      "zh": "一个基于 OpenZeppelin Governor 模块的代币治理智能合约架构，包含投票、法定人数、提案管理和时间锁执行。"
+    },
+    "status": {
+      "en": "Development / learning project. Deployment is not claimed.",
+      "id": "Proyek pengembangan / belajar. Deployment tidak diklaim.",
+      "zh": "开发 / 学习项目。不声称已部署。"
+    },
+    "highlights": {
+      "en": ["Proposal creation", "Token-based voting", "Quorum configuration", "Timelock-controlled execution"],
+      "id": ["Pembuatan proposal", "Voting berbasis token", "Konfigurasi kuorum", "Eksekusi dengan kendali timelock"],
+      "zh": ["创建提案", "基于代币的投票", "法定人数配置", "时间锁控制的执行"]
+    }
+  },
+  {
+    "id": "voting-contract",
+    "name": "Smart Contract Voting",
+    "url": "https://github.com/ByteBreakerGhost-69/smart-contract-for-voting",
+    "category": "web3",
+    "statusType": "documented",
+    "icon": "ballot",
+    "featured": false,
+    "technologies": ["Solidity", "OpenZeppelin", "Foundry"],
+    "summary": {
+      "en": "An on-chain voting contract with voter registration, time-bounded voting, one-vote-per-address rules, owner administration, and emergency pause functionality.",
+      "id": "Kontrak voting on-chain dengan pendaftaran pemilih, voting berbatas waktu, aturan satu suara per alamat, administrasi oleh pemilik, dan fitur jeda darurat.",
+      "zh": "一个链上投票合约，包含选民登记、限时投票、每个地址一票的规则、所有者管理和紧急暂停功能。"
+    },
+    "status": {
+      "en": "Documented project. Deployment is not claimed.",
+      "id": "Proyek yang terdokumentasi. Deployment tidak diklaim.",
+      "zh": "已有文档的项目。不声称已部署。"
+    },
+    "highlights": {
+      "en": ["Voter whitelist", "Time-based voting", "Single vote per address", "Pausable control", "Custom errors"],
+      "id": ["Whitelist pemilih", "Voting berbasis waktu", "Satu suara per alamat", "Kontrol jeda (pausable)", "Custom errors"],
+      "zh": ["选民白名单", "限时投票", "每个地址仅一票", "可暂停控制", "自定义错误"]
+    }
+  },
+  {
+    "id": "nuswap",
+    "name": "Nuswap",
+    "url": "https://github.com/ByteBreakerGhost-69/nuswap",
+    "category": "web3",
+    "statusType": "developing",
+    "icon": "swap",
+    "featured": true,
+    "technologies": ["Next.js", "TypeScript", "Solidity / Web3 integration"],
+    "summary": {
+      "en": "A decentralized exchange project intended to make DeFi concepts more approachable to new users.",
+      "id": "Proyek bursa terdesentralisasi (DEX) yang dimaksudkan agar konsep DeFi lebih mudah didekati oleh pengguna baru.",
+      "zh": "一个去中心化交易所项目，旨在让新用户更容易接触 DeFi 概念。"
+    },
+    "status": {
+      "en": "Development project.",
+      "id": "Proyek dalam pengembangan.",
+      "zh": "开发中的项目。"
+    },
+    "highlights": {
+      "en": ["DEX interface concept", "DeFi-focused user experience"],
+      "id": ["Konsep antarmuka DEX", "Pengalaman pengguna yang berfokus pada DeFi"],
+      "zh": ["DEX 界面构想", "以 DeFi 为核心的用户体验"]
+    },
+    "note": {
+      "en": "Not presented as a production-ready or deployed exchange.",
+      "id": "Tidak diklaim sebagai bursa yang siap produksi atau sudah di-deploy.",
+      "zh": "不声称是已可用于生产或已部署的交易所。"
+    }
+  },
+  {
+    "id": "neuron",
+    "name": "NEURON",
+    "url": "https://github.com/ByteBreakerGhost-69/NEURON",
+    "category": "ml",
+    "statusType": "developing",
+    "icon": "neuron",
+    "featured": true,
+    "technologies": ["Python", "NumPy", "Machine Learning"],
+    "summary": {
+      "en": "An educational project to understand handwritten-digit classification by implementing neural-network mechanics from scratch with Python and NumPy.",
+      "id": "Proyek edukasi untuk memahami klasifikasi angka tulisan tangan dengan mengimplementasikan mekanisme jaringan saraf tiruan dari nol memakai Python dan NumPy.",
+      "zh": "一个教育性项目，使用 Python 和 NumPy 从零实现神经网络机制，以理解手写数字分类。"
+    },
+    "status": {
+      "en": "In development.",
+      "id": "Dalam pengembangan.",
+      "zh": "开发中。"
+    },
+    "highlights": {
+      "en": ["Forward propagation", "ReLU and Softmax", "Cross-entropy loss", "Backpropagation", "Gradient descent", "Digit classification"],
+      "id": ["Forward propagation", "ReLU dan Softmax", "Loss cross-entropy", "Backpropagation", "Gradient descent", "Klasifikasi angka"],
+      "zh": ["前向传播", "ReLU 与 Softmax", "交叉熵损失", "反向传播", "梯度下降", "数字分类"]
+    },
+    "note": {
+      "en": "No accuracy figures are published yet. They will be added once the repository has reproducible evaluation.",
+      "id": "Belum ada angka akurasi yang dipublikasikan. Angka akan ditambahkan setelah repositori memiliki evaluasi yang dapat direproduksi.",
+      "zh": "尚未公布准确率数据，待仓库具备可复现的评估后再补充。"
+    }
+  },
+  {
+    "id": "econlang",
+    "name": "EconLang",
+    "url": "https://github.com/ByteBreakerGhost-69/econlang",
+    "category": "research",
+    "statusType": "early",
+    "icon": "code",
+    "featured": true,
+    "technologies": ["Compiler development", "Programming language design", "Scientific computing concepts"],
+    "summary": {
+      "en": "An early-stage programming-language and compiler research project envisioned for economics, econometrics, statistics, quantitative finance, scientific computing, simulation, and optimization.",
+      "id": "Proyek riset bahasa pemrograman dan compiler tahap awal yang dirancang untuk ekonomi, ekonometrika, statistik, keuangan kuantitatif, komputasi ilmiah, simulasi, dan optimisasi.",
+      "zh": "一个处于早期阶段的编程语言与编译器研究项目，面向经济学、计量经济学、统计学、量化金融、科学计算、仿真与优化。"
+    },
+    "status": {
+      "en": "Early architecture and compiler-development stage.",
+      "id": "Tahap awal arsitektur dan pengembangan compiler.",
+      "zh": "处于架构与编译器开发的早期阶段。"
+    },
+    "highlights": {
+      "en": ["Economics and econometrics focus", "Quantitative finance goals", "Scientific computing", "Simulation and optimization", "Memory-safety goals"],
+      "id": ["Fokus ekonomi dan ekonometrika", "Tujuan keuangan kuantitatif", "Komputasi ilmiah", "Simulasi dan optimisasi", "Tujuan keamanan memori"],
+      "zh": ["聚焦经济学与计量经济学", "量化金融目标", "科学计算", "仿真与优化", "内存安全目标"]
+    },
+    "note": {
+      "en": "Listed highlights describe the project's vision and goals, not shipped features.",
+      "id": "Sorotan yang tercantum menggambarkan visi dan tujuan proyek, bukan fitur yang sudah dirilis.",
+      "zh": "所列亮点描述的是项目的愿景与目标，并非已发布的功能。"
+    }
+  },
+  {
+    "id": "spaceoffice",
+    "name": "SpaceOffice",
+    "url": "https://github.com/ByteBreakerGhost-69/SpaceOffice",
+    "category": "creative",
+    "statusType": "early",
+    "icon": "rocket",
+    "featured": true,
+    "technologies": ["Pixel art", "Web development", "AI agent concepts", "Animation"],
+    "summary": {
+      "en": "An early-stage concept for a pixel-art virtual office inside a spacecraft, where AI agents can have identities, move through rooms, collaborate, and be monitored.",
+      "id": "Konsep tahap awal untuk kantor virtual pixel art di dalam pesawat luar angkasa, tempat agen AI memiliki identitas, bergerak antar ruangan, berkolaborasi, dan dapat dipantau.",
+      "zh": "一个早期构想：在宇宙飞船内的像素风虚拟办公室中，AI 智能体拥有身份、在房间之间移动、协作，并可被监控。"
+    },
+    "status": {
+      "en": "Early development. The repository documents the initial vision and project structure.",
+      "id": "Tahap awal pengembangan. Repositori mendokumentasikan visi awal dan struktur proyek.",
+      "zh": "早期开发阶段。仓库记录了最初的愿景与项目结构。"
+    },
+    "highlights": {
+      "en": ["Pixel-art spacecraft environment", "Character and animation system", "Interactive rooms and decks", "Agent identities and tasks", "Agent monitoring dashboard"],
+      "id": ["Lingkungan pesawat luar angkasa pixel art", "Sistem karakter dan animasi", "Ruangan dan dek interaktif", "Identitas dan tugas agen", "Dasbor pemantauan agen"],
+      "zh": ["像素风飞船环境", "角色与动画系统", "可交互的房间与甲板", "智能体身份与任务", "智能体监控面板"]
+    },
+    "note": {
+      "en": "Listed highlights describe the project's vision, not shipped features.",
+      "id": "Sorotan yang tercantum menggambarkan visi proyek, bukan fitur yang sudah dirilis.",
+      "zh": "所列亮点描述的是项目的愿景，并非已发布的功能。"
+    }
+  },
+  {
+    "id": "portfolio-v1",
+    "name": "Personal Portfolio Website",
+    "url": "https://github.com/ByteBreakerGhost-69/maulana-yasyfa-u-al-azhiim-yudho-leksono-website-portfolio",
+    "category": "creative",
+    "statusType": "earlier",
+    "icon": "window",
+    "featured": false,
+    "technologies": ["HTML", "Web development"],
+    "summary": {
+      "en": "An earlier personal portfolio website project intended to present Maulana's profile and story.",
+      "id": "Proyek website portfolio pribadi versi sebelumnya yang dimaksudkan untuk menampilkan profil dan cerita Maulana.",
+      "zh": "一个早期的个人作品集网站项目，用于展示 Maulana 的个人资料与故事。"
+    },
+    "status": {
+      "en": "Earlier version. Its README noted it was still under construction.",
+      "id": "Versi sebelumnya. README-nya mencatat bahwa proyek ini masih dalam pembangunan.",
+      "zh": "早期版本。其 README 注明仍在建设中。"
+    },
+    "highlights": {
+      "en": ["Personal profile page", "Personal story page"],
+      "id": ["Halaman profil pribadi", "Halaman cerita pribadi"],
+      "zh": ["个人资料页", "个人故事页"]
+    }
+  },
+  {
+    "id": "voxagent-ai",
+    "name": "VoxAgent AI",
+    "url": "https://github.com/ByteBreakerGhost-69/voxagent-ai",
+    "category": "ai",
+    "statusType": "developing",
+    "icon": "mic",
+    "featured": false,
+    "technologies": ["Node.js", "Express.js", "PostgreSQL", "REST API"],
+    "summary": {
+      "en": "An AI assistant backend project with chat endpoints and persistent conversation storage.",
+      "id": "Proyek backend asisten AI dengan endpoint chat dan penyimpanan percakapan yang persisten.",
+      "zh": "一个 AI 助手后端项目，包含聊天接口与持久化的对话存储。"
+    },
+    "status": {
+      "en": "Development project. The public README is limited, so details here are brief.",
+      "id": "Proyek dalam pengembangan. README publiknya terbatas, jadi detail di sini singkat.",
+      "zh": "开发中的项目。公开 README 内容有限，因此此处细节从简。"
+    },
+    "highlights": {
+      "en": ["Health endpoint", "Agent chat endpoint", "Conversation and message storage", "Calendar-event data model"],
+      "id": ["Endpoint health", "Endpoint chat agen", "Penyimpanan percakapan dan pesan", "Model data event kalender"],
+      "zh": ["健康检查接口", "智能体聊天接口", "对话与消息存储", "日历事件数据模型"]
+    }
+  }
+]

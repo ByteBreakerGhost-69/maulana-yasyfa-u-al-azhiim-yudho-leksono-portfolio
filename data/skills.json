@@ -1,0 +1,110 @@
+{
+  "categories": [
+    {
+      "id": "languages", "icon": "code",
+      "name": { "en": "Programming languages", "id": "Bahasa pemrograman", "zh": "编程语言" },
+      "skills": [
+        { "name": "Python", "level": "used", "projects": ["soc-agent-toolkit", "ai-multi-agent", "ai-edu", "ai-cv-analyzer", "neuron"] },
+        { "name": "JavaScript", "level": "used", "projects": [] },
+        { "name": "TypeScript", "level": "used", "projects": ["nuswap"] },
+        { "name": "Solidity", "level": "used", "projects": ["crowdfunding", "dao-governance", "voting-contract", "nuswap"] }
+      ]
+    },
+    {
+      "id": "frontend", "icon": "window",
+      "name": { "en": "Frontend", "id": "Frontend", "zh": "前端" },
+      "skills": [
+        { "name": "HTML5", "level": "used", "projects": ["portfolio-v1"] },
+        { "name": "CSS3", "level": "used", "projects": [] },
+        { "name": "Vue.js", "level": "exploring", "projects": [] },
+        { "name": "React", "level": "learning", "projects": [] },
+        { "name": "Next.js", "level": "used", "projects": ["nuswap"] },
+        { "name": "Tailwind CSS", "level": "learning", "projects": [] }
+      ]
+    },
+    {
+      "id": "backend", "icon": "server",
+      "name": { "en": "Backend and APIs", "id": "Backend dan API", "zh": "后端与 API" },
+      "skills": [
+        { "name": "FastAPI", "level": "used", "projects": ["ai-edu", "ai-cv-analyzer"] },
+        { "name": "Node.js", "level": "used", "projects": ["voxagent-ai"] },
+        { "name": "Express.js", "level": "used", "projects": ["voxagent-ai"] },
+        { "name": "REST API development", "level": "used", "projects": ["voxagent-ai"] }
+      ]
+    },
+    {
+      "id": "databases", "icon": "db",
+      "name": { "en": "Databases", "id": "Basis data", "zh": "数据库" },
+      "skills": [
+        { "name": "PostgreSQL", "level": "used", "projects": ["ai-edu", "voxagent-ai"] },
+        { "name": "MySQL", "level": "exploring", "projects": [] },
+        { "name": "MongoDB", "level": "exploring", "projects": [] },
+        { "name": "SQLite", "level": "used", "projects": ["ai-multi-agent"] }
+      ]
+    },
+    {
+      "id": "ai", "icon": "robot",
+      "name": { "en": "AI and automation", "id": "AI dan otomasi", "zh": "AI 与自动化" },
+      "skills": [
+        { "name": "Large Language Models (LLMs)", "level": "used", "projects": ["ai-edu", "ai-cv-analyzer", "flowise-chatbot"] },
+        { "name": "AI agents", "level": "used", "projects": ["ai-multi-agent", "ai-edu"] },
+        { "name": "Multi-agent systems", "level": "used", "projects": ["ai-multi-agent", "ai-edu"] },
+        { "name": "AI orchestration", "level": "used", "projects": ["ai-multi-agent", "ai-edu"] },
+        { "name": "LangChain", "level": "learning", "projects": ["flowise-chatbot"] },
+        { "name": "Flowise", "level": "used", "projects": ["flowise-chatbot"] },
+        { "name": "Prompt engineering", "level": "used", "projects": ["flowise-chatbot"] }
+      ]
+    },
+    {
+      "id": "web3", "icon": "block",
+      "name": { "en": "Blockchain and Web3", "id": "Blockchain dan Web3", "zh": "区块链与 Web3" },
+      "skills": [
+        { "name": "Ethereum ecosystem", "level": "used", "projects": ["crowdfunding"] },
+        { "name": "Smart contracts", "level": "used", "projects": ["crowdfunding", "dao-governance", "voting-contract"] },
+        { "name": "ERC-20 concepts", "level": "learning", "projects": [] },
+        { "name": "DAO governance", "level": "used", "projects": ["dao-governance"] },
+        { "name": "DeFi concepts", "level": "learning", "projects": ["nuswap"] },
+        { "name": "Foundry", "level": "used", "projects": ["crowdfunding", "voting-contract"] },
+        { "name": "OpenZeppelin", "level": "used", "projects": ["dao-governance", "voting-contract"] },
+        { "name": "Chainlink integration concepts", "level": "exploring", "projects": [] }
+      ]
+    },
+    {
+      "id": "security", "icon": "shield",
+      "name": { "en": "Cybersecurity", "id": "Keamanan siber", "zh": "网络安全" },
+      "skills": [
+        { "name": "Defensive security tooling", "level": "used", "projects": ["soc-agent-toolkit"] },
+        { "name": "SOC alert triage", "level": "used", "projects": ["soc-agent-toolkit"] },
+        { "name": "MITRE ATT&CK mapping", "level": "used", "projects": ["soc-agent-toolkit"] },
+        { "name": "IOC enrichment", "level": "used", "projects": ["soc-agent-toolkit"] },
+        { "name": "Incident prioritization", "level": "used", "projects": ["soc-agent-toolkit"] },
+        { "name": "Security automation", "level": "used", "projects": ["soc-agent-toolkit"] },
+        { "name": "Ethical security learning", "level": "learning", "projects": [] }
+      ]
+    },
+    {
+      "id": "ml", "icon": "neuron",
+      "name": { "en": "Machine learning and data", "id": "Machine learning dan data", "zh": "机器学习与数据" },
+      "skills": [
+        { "name": "NumPy", "level": "used", "projects": ["neuron"] },
+        { "name": "Neural network fundamentals", "level": "used", "projects": ["neuron"] },
+        { "name": "Classification", "level": "used", "projects": ["neuron"] },
+        { "name": "Clustering", "level": "exploring", "projects": [] },
+        { "name": "Data processing", "level": "used", "projects": ["soc-agent-toolkit", "neuron"] }
+      ]
+    },
+    {
+      "id": "tools", "icon": "wrench",
+      "name": { "en": "Tools and environments", "id": "Alat dan lingkungan kerja", "zh": "工具与环境" },
+      "skills": [
+        { "name": "Git", "level": "used", "projects": [] },
+        { "name": "GitHub", "level": "used", "projects": [] },
+        { "name": "Docker", "level": "learning", "projects": [] },
+        { "name": "Linux distributions", "level": "used", "projects": [] },
+        { "name": "Ubuntu", "level": "used", "projects": [] },
+        { "name": "Windows", "level": "used", "projects": [] },
+        { "name": "GitHub Actions", "level": "exploring", "projects": [] }
+      ]
+    }
+  ]
+}
